@@ -38,7 +38,7 @@ public class hrmLogintest {
 	    	
 	    	lg.login(USERNAME, PASSWORD);
 //	    	 
-	    	driver.quit();
+//	    	driver.quit();
 		
 		
 	}	

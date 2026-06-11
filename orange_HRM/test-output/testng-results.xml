@@ -2,16 +2,40 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-07T23:23:19 IST" name="Default suite" finished-at="2026-06-07T23:23:29 IST" duration-ms="9662">
+  <suite started-at="2026-06-11T14:12:33 IST" name="Default suite" finished-at="2026-06-11T14:15:36 IST" duration-ms="182906">
     <groups>
     </groups>
-    <test started-at="2026-06-07T23:23:19 IST" name="Default test" finished-at="2026-06-07T23:23:29 IST" duration-ms="9662">
-      <class name="orangeHRM_admin.adminAbleToAddNewUsersTest">
-        <test-method signature="getAddNewUser()[pri:0, instance:orangeHRM_admin.adminAbleToAddNewUsersTest@2d1ef81a]" started-at="2026-06-07T23:23:19 IST" name="getAddNewUser" finished-at="2026-06-07T23:23:29 IST" duration-ms="9618" status="PASS">
+    <test started-at="2026-06-11T14:12:33 IST" name="Default test" finished-at="2026-06-11T14:15:36 IST" duration-ms="182906">
+      <class name="orangeHRM_admin.adminAbleToSearchUserTest">
+        <test-method is-config="true" signature="repConfig()[pri:0, instance:orangeHRM_admin.adminAbleToSearchUserTest@6200f9cb]" started-at="2026-06-11T14:12:32 IST" name="repConfig" finished-at="2026-06-11T14:12:33 IST" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getAddNewUser -->
-      </class> <!-- orangeHRM_admin.adminAbleToAddNewUsersTest -->
+        </test-method> <!-- repConfig -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:orangeHRM_admin.adminAbleToSearchUserTest@6200f9cb]" started-at="2026-06-11T14:12:33 IST" name="setUp" finished-at="2026-06-11T14:13:13 IST" duration-ms="39960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:orangeHRM_admin.adminAbleToSearchUserTest@6200f9cb]" started-at="2026-06-11T14:13:13 IST" name="login" finished-at="2026-06-11T14:14:53 IST" duration-ms="100209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="getAddNewUserByAdmin()[pri:0, instance:orangeHRM_admin.adminAbleToSearchUserTest@6200f9cb]" started-at="2026-06-11T14:14:53 IST" name="getAddNewUserByAdmin" finished-at="2026-06-11T14:15:33 IST" duration-ms="39444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAddNewUserByAdmin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:orangeHRM_admin.adminAbleToSearchUserTest@6200f9cb]" started-at="2026-06-11T14:15:33 IST" name="logout" finished-at="2026-06-11T14:15:35 IST" duration-ms="2796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangeHRM_admin.adminAbleToSearchUserTest@6200f9cb]" started-at="2026-06-11T14:15:35 IST" name="tearDown" finished-at="2026-06-11T14:15:36 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="repBackup()[pri:0, instance:orangeHRM_admin.adminAbleToSearchUserTest@6200f9cb]" started-at="2026-06-11T14:15:36 IST" name="repBackup" finished-at="2026-06-11T14:15:36 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- repBackup -->
+      </class> <!-- orangeHRM_admin.adminAbleToSearchUserTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

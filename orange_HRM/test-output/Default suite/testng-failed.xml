@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="orangeHRM_LogIn.hrmLogintest">
+      <class name="orangeHRM_admin.adminAbleToSearchUserTest">
         <methods>
-          <include name="getLogIn"/>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="getAddNewUserByAdmin"/>
+          <include name="repBackup"/>
+          <include name="tearDown"/>
+          <include name="logout"/>
+          <include name="repConfig"/>
         </methods>
-      </class> <!-- orangeHRM_LogIn.hrmLogintest -->
+      </class> <!-- orangeHRM_admin.adminAbleToSearchUserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

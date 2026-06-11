@@ -1,0 +1,19 @@
+<suite  name="Suite">
+          
+	<test  name="Testrunner1">
+	         <parameter name="bro" value="chrome"/>
+		<classes>
+			<class name="TestNg.sampleTest2" />
+	
+		</classes>
+	</test> 
+	
+ 
+</suite> 
+
+
+
+
+
+
+
