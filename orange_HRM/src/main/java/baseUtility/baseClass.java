@@ -31,20 +31,20 @@ public class baseClass {
 	public static WebDriver sdriver;
 	public ExtentReports report;
 
-	@BeforeSuite
-	public void repConfig() {
-//		report config
-		ExtentSparkReporter spark = new ExtentSparkReporter("./advance_reports/oramgeHRM.html");
-		spark.config().setDocumentTitle("orange_HRM");
-		spark.config().setReportName("first report");
-		spark.config().setTheme(Theme.DARK);
-
-		report = new ExtentReports();
-		report.attachReporter(spark);
-		report.setSystemInfo("key1", "value1");
-		report.setSystemInfo("key2", "value2");
-		report.setSystemInfo("key3", "value3");
-	}
+//	@BeforeSuite
+//	public void repConfig() {
+////		report config
+//		ExtentSparkReporter spark = new ExtentSparkReporter("./advance_reports/oramgeHRM.html");
+//		spark.config().setDocumentTitle("orange_HRM");
+//		spark.config().setReportName("first report");
+//		spark.config().setTheme(Theme.DARK);                             // now this part(beforeSuits) add to listeners
+//
+//		report = new ExtentReports();
+//		report.attachReporter(spark);
+//		report.setSystemInfo("key1", "value1");
+//		report.setSystemInfo("key2", "value2");
+//		report.setSystemInfo("key3", "value3");
+//	}
 
 	@BeforeClass
 	public void setUp()
@@ -96,7 +96,7 @@ public class baseClass {
 
 		System.out.println("Login successful");
 	}
-
+//===========================
 	@AfterMethod
 	public void logout() {
 		// ==============================
@@ -119,9 +119,9 @@ public class baseClass {
 		System.out.println("Browser closed successfully");
 	}
 
-	@AfterSuite
-	public void repBackup() {
-		report.flush();
-	}
+//	@AfterSuite
+//	public void repBackup() {              // add this part(after suit to Listeners)
+//		report.flush();
+//	}
 
 }

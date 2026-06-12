@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -20,6 +21,7 @@ import genericUtility.webDriverUtility;
 import orangeHRM_LogIn.hrmLogintest;
 import pomPages.loginPom;
 
+@Listeners(listeners_Utility.impl_listener.class)
 public class adminAbleToSearchUserTest extends baseClass {
 
 	@Test

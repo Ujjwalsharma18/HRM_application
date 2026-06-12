@@ -8,10 +8,8 @@
           <include name="login"/>
           <include name="setUp"/>
           <include name="getAddNewUserByAdmin"/>
-          <include name="repBackup"/>
-          <include name="tearDown"/>
           <include name="logout"/>
-          <include name="repConfig"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- orangeHRM_admin.adminAbleToSearchUserTest -->
     </classes>
